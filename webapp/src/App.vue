@@ -7,13 +7,10 @@
         </v-col>
         <v-spacer />
         <v-col md="1">
-          <v-btn color="secondary"> Home </v-btn>
-        </v-col>
-        <v-col md="1">
           <HoursButton />
         </v-col>
         <v-col md="1">
-          <v-btn color="secondary"> Order </v-btn>
+          <OrderForm />
         </v-col>
       </v-row>
     </v-app-bar>
@@ -26,12 +23,14 @@
 
 <script>
 import HoursButton from "./components/HoursButton.vue";
+import OrderForm from "./components/OrderForm.vue";
 
 export default {
   name: "App",
 
   components: {
     HoursButton,
+    OrderForm,
   },
 };
 </script>
