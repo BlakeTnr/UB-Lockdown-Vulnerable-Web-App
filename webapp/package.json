@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "^3.8.3",
     "eslint": "^8.9.0",
-    "mongodb": "^4.4.1",
+    "mysql": "^2.18.1",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
     "vuetify": "^2.6.0"
