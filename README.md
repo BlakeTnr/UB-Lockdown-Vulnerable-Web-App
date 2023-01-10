@@ -1,6 +1,8 @@
 # UB Lockdown Vulnerable Web App
 
-Vulnerable Web Application for UB Lockdown
+Vulnerable Web Application for UB Lockdown (red vs. blue team hacking competition)
+
+Simulates a vulnerable web app by having a malicious URL where requests run commands on the system
 
 ## How to run
 - Download it
